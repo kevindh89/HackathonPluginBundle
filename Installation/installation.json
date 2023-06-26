@@ -4,14 +4,12 @@
     "users": [],
     "cards": {
         "schemas": [
-            "https://example.com/example.schema.json"
+            "https://vrijbpr.nl/vrijbrp.eersteInschrijving.schema.json"
         ],
         "collections": [
-            "https://example.com/collection/ps.default.collection.json"
+            "https://vrijbrp.nl/collection/vrijbrp.default.collection.json"
         ],
-        "applications": [
-            "https://example.com/application/ps.frontend.application.json"
-        ]
+        "applications": []
     },
     "actions": {
         "handlers": [
