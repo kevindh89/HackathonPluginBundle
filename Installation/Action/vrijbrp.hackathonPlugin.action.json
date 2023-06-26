@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "description": "Hackathon plugin action, it triggers a request to the configured requestcatcher.com",
   "listens": [
-    "commongateway.object.pre.create"
+    "commongateway.object.create"
   ],
   "conditions":
   {
