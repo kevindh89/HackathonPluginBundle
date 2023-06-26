@@ -1,5 +1,5 @@
 {
-  "$id": "https://vrijbpr.nl/vrijbrp.eersteInschrijving.schema.json",
+  "$id": "https://vrijbrp.nl/vrijbrp.eersteInschrijving.schema.json",
   "$schema": "https://docs.commongateway.nl/schemas/Entity.schema.json",
   "version": "0.1",
   "title": "VrijBRP first registration e-service schema",
