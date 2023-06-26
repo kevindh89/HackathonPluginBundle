@@ -1,0 +1,22 @@
+{
+  "title": "VrijBRP hackathon plugin action",
+  "$id": "https://vrijbrp.nl/action/vrijbrp.hackathonPlugin.action.json",
+  "$schema": "https://docs.commongateway.nl/schemas/Action.schema.json",
+  "version": "0.0.1",
+  "description": "Hackathon plugin action, it triggers a request to the configured requestcatcher.com",
+  "listens": [
+    "commongateway.object.pre.create"
+  ],
+  "conditions":
+  {
+    "==": [
+      {
+        "var": "entity"
+      }, "https://vrijbrp.nl/vrijbrp.eersteInschrijving.schema.json"
+    ]
+  },
+  "class": "App\\ActionHandler\\HackathonPluginHandler",
+  "configuration": {
+    "requestCatcher": "https://hackathon-plugin.requestcatcher.com/test"
+  }
+}

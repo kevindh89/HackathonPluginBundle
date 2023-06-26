@@ -1,0 +1,9 @@
+{
+    "title": "HackathonPlugin Collection",
+    "$id": "https://vrijbrp.nl/collection/vrijbrp.default.collection.json",
+    "$schema": "https://docs.commongateway.nl/schemas/CollectionEntity.schema.json",
+    "version": "0.0.1",
+    "prefix": "vrijbrp-hackathon",
+    "plugin": "HackathonPluginBundle",
+    "description": "VrijBRP hackathon collection, used to prefix endpoints"
+}

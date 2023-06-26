@@ -1,0 +1,10 @@
+{
+  "https://vrijbrp.nl/vrijbrp.eersteInschrijving.schema.json": [
+    {
+      "id": "906bd169-0256-433d-87be-4ed393a9511c",
+      "firstName": "John",
+      "lastName": "Doe",
+      "city": "Amsterdam"
+    }
+  ]
+}

@@ -9,32 +9,10 @@
 namespace CommonGateway\HackathonPluginBundle\ActionHandler;
 
 use CommonGateway\CoreBundle\ActionHandler\ActionHandlerInterface;
-use CommonGateway\HackathonPluginBundle\Service\HackathonPluginService;
 
 
 class HackathonPluginHandler implements ActionHandlerInterface
 {
-
-    /**
-     * The pet store service used by the handler
-     *
-     * @var HackathonPluginService
-     */
-    private HackathonPluginService $petStoreService;
-
-
-    /**
-     * The constructor
-     *
-     * @param HackathonPluginService $petStoreService The pet store service
-     */
-    public function __construct(HackathonPluginService $petStoreService)
-    {
-        $this->petStoreService = $petStoreService;
-
-    }//end __construct()
-
-
     /**
      * Returns the required configuration as a https://json-schema.org array.
      *
@@ -43,10 +21,10 @@ class HackathonPluginHandler implements ActionHandlerInterface
     public function getConfiguration(): array
     {
         return [
-            '$id'         => 'https://example.com/ActionHandler/PetStoreHandler.ActionHandler.json',
+            '$id'         => 'https://vrijbrp.nl/actionHandler/vrijbrp.hackathonPlugin.handler.json',
             '$schema'     => 'https://docs.commongateway.nl/schemas/ActionHandler.schema.json',
-            'title'       => 'PetStore ActionHandler',
-            'description' => 'This handler returns a welcoming string',
+            'title'       => 'Hackathon plugin handler',
+            'description' => 'This handler posts a request to the configured requestcatcher.com',
             'required'    => [],
             'properties'  => [],
         ];
@@ -66,8 +44,9 @@ class HackathonPluginHandler implements ActionHandlerInterface
      */
     public function run(array $data, array $configuration): array
     {
-        return $this->petStoreService->petStoreHandler($data, $configuration);
+        dd($data);
 
+        return [];
     }//end run()
 
 

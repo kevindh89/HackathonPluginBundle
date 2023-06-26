@@ -1,0 +1,28 @@
+{
+  "$id": "https://vrijbpr.nl/vrijbrp.eersteInschrijving.schema.json",
+  "$schema": "https://docs.commongateway.nl/schemas/Entity.schema.json",
+  "version": "0.1",
+  "title": "VrijBRP first registration e-service schema",
+  "type": "object",
+  "description": "Schema that defines a first registration e-service request",
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "description": "The person's first name.",
+      "example": "John",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "description": "The person's last name.",
+      "example": "Doe",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "description": "City where the person lives now.",
+      "example": "Amsterdam",
+      "required": true
+    }
+  }
+}
