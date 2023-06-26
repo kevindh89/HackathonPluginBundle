@@ -15,7 +15,7 @@
       }, "https://vrijbrp.nl/vrijbrp.eersteInschrijving.schema.json"
     ]
   },
-  "class": "App\\ActionHandler\\HackathonPluginHandler",
+  "class": "CommonGateway\\HackathonPluginBundle\\ActionHandler\\HackathonPluginHandler",
   "configuration": {
     "requestCatcher": "https://hackathon-plugin.requestcatcher.com/test"
   }
