@@ -1,5 +1,5 @@
 {
-    "name": "common-gateway/hackathon-plugin-bundle",
+    "name": "kevindh89/hackathon-plugin-bundle",
     "description": "A commonground gateway plugin created during Conxillium hackathon",
     "type": "symfony-bundle",
     "keywords": [
