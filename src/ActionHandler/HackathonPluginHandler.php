@@ -6,29 +6,29 @@
  * @license EUPL-1.2 https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
  */
 
-namespace CommonGateway\PetStoreBundle\ActionHandler;
+namespace CommonGateway\HackathonPluginBundle\ActionHandler;
 
 use CommonGateway\CoreBundle\ActionHandler\ActionHandlerInterface;
-use CommonGateway\PetStoreBundle\Service\PetStoreService;
+use CommonGateway\HackathonPluginBundle\Service\HackathonPluginService;
 
 
-class PetStoreHandler implements ActionHandlerInterface
+class HackathonPluginHandler implements ActionHandlerInterface
 {
 
     /**
      * The pet store service used by the handler
      *
-     * @var PetStoreService
+     * @var HackathonPluginService
      */
-    private PetStoreService $petStoreService;
+    private HackathonPluginService $petStoreService;
 
 
     /**
      * The constructor
      *
-     * @param PetStoreService $petStoreService The pet store service
+     * @param HackathonPluginService $petStoreService The pet store service
      */
-    public function __construct(PetStoreService $petStoreService)
+    public function __construct(HackathonPluginService $petStoreService)
     {
         $this->petStoreService = $petStoreService;
 

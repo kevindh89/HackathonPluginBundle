@@ -1,6 +1,6 @@
 {
-    "name": "common-gateway/pet-store-bundle",
-    "description": "An example package for creating symfony flex bundles as plugins",
+    "name": "common-gateway/hackathon-plugin-bundle",
+    "description": "A commonground gateway plugin created during Conxillium hackathon",
     "type": "symfony-bundle",
     "keywords": [
         "commongateway",
@@ -8,10 +8,9 @@
         "gateway",
         "conduction",
         "symfony",
-        "common-gateway-plugin",
-        "pet store"
+        "common-gateway-plugin"
     ],
-    "homepage": "https://commongateway.nl",
+    "homepage": "https://www.conxillium.com",
     "license": "EUPL-1.2",
     "minimum-stability": "dev",
     "require": {
@@ -23,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CommonGateway\\PetStoreBundle\\": "src/"
+            "CommonGateway\\HackathonPluginBundle\\": "src/"
         }
     }
 }

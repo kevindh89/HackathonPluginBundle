@@ -1,7 +1,7 @@
 publiccodeYmlVersion: "0.1"
 
-name: "PetStoreBundle"
-url: "https://github.com/CommonGateway/PetStoreBundle"
+name: "HackathonPluginBundle"
+url: "https://github.com/CommonGateway/HackathonPluginBundle"
 releaseDate: "2022-10-01"
 
 softwareType: addon

@@ -1,5 +1,5 @@
 {
-    "installationService": "CommonGateway\\PetStoreBundle\\Service\\InstallationService",
+    "installationService": "CommonGateway\\HackathonPluginBundle\\Service\\InstallationService",
     "applications": [
         {
             "title": "Example Front-end Application",
@@ -39,7 +39,7 @@
         "handlers": [
             {
                 "reference": "https://hp.nl/action/hp.CreatePaymentAction.action.json",
-                "actionHandler": "CommonGateway\\PetStoreBundle\\ActionHandler\\PetStoreHandler",
+                "actionHandler": "CommonGateway\\HackathonPluginBundle\\ActionHandler\\PetStoreHandler",
                 "listens": ["ps.default.listens"],
                 "configuration": {
                     "description": "This is an example of how we can create a Action for an ActionHandler.",

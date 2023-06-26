@@ -1,4 +1,4 @@
-# CommonGateway\PetStoreBundle\Service\PetStoreService  
+# CommonGateway\HackathonPluginBundle\Service\PetStoreService  
 
 
 

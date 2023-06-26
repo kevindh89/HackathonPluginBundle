@@ -6,12 +6,12 @@
  * @license EUPL-1.2 https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
  */
 
-namespace CommonGateway\PetStoreBundle\Service;
+namespace CommonGateway\HackathonPluginBundle\Service;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;
 
-class PetStoreService
+class HackathonPluginService
 {
 
     /**
@@ -68,7 +68,7 @@ class PetStoreService
 
         $this->logger->debug("PetStoreService -> petStoreHandler()");
 
-        return ['response' => 'Hello. Your PetStoreBundle works'];
+        return ['response' => 'Hello. Your HackathonPluginBundle works'];
 
     }//end petStoreHandler()
 
