@@ -16,21 +16,21 @@ The Composer method in the terminal and root folder:
 
 > for the installation of the plugin
 
-`$composer require common-gateway/hackathon-plugin-bundle:dev-main`
+`$composer require kevindh89/hackathon-plugin-bundle:dev-main`
 
 > for the installation of schemas
 
-\`$php bin/console commongateway:install common-gateway/hackathon-plugin-bundle
+\`$php bin/console commongateway:install kevindh89/hackathon-plugin-bundle
 
 The dockerized method in the terminal and root folder:
 
 > for the installation of the plugin
 
-`$docker-compose exec php composer require common-gateway/hackathon-plugin-bundle:dev-main`
+`$docker-compose exec php composer require kevindh89/hackathon-plugin-bundle:dev-main`
 
 > for the installation of schemas
 
-`$docker-compose exec php bin/console commongateway:install common-gateway/hackathon-plugin-bundle`
+`$docker-compose exec php bin/console commongateway:install kevindh89/hackathon-plugin-bundle`
 
 ***
 
@@ -61,7 +61,7 @@ This template is for rapid Symfony bundle development and meant as a model to ba
     > Note: this is kebab-case. Also read: [naming your package](https://packagist.org/about#naming-your-package)
 
     *   Check the autoload field to be set accordingly.
-    *   Open HackathonPluginBundle.php and change the Bundle `name` and `namespace`. The namespace should be the same as your package name in `composer.json` but in CamelCase. So `common-gateway/hackathon-plugin-bundle` becomes `CommonGateway/HackathonPluginBundle`
+    *   Open HackathonPluginBundle.php and change the Bundle `name` and `namespace`. The namespace should be the same as your package name in `composer.json` but in CamelCase. So `kevindh89/hackathon-plugin-bundle` becomes `CommonGateway/HackathonPluginBundle`
     *   Rename the `/Service` and `/ActionHandler` accordingly (or delete if not used).
     *   Rename the `/DependencyInjection/HackathonPluginExtension.php` to your `BundleNameExtension.php`
     *   Rename the `/Resources/config/services.yaml` namespaces

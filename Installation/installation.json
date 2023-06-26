@@ -27,7 +27,7 @@
             }
         ],
         "fixConfigRef": [
-            "https://vrijbrp.nl/vrijbrp.eersteInschrijving.schema.json"
+            "https://vrijbrp.nl/action/vrijbrp.hackathonPlugin.action.json"
         ]
     },
     "collections": [
