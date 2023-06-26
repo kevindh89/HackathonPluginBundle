@@ -39,7 +39,7 @@
         "handlers": [
             {
                 "reference": "https://hp.nl/action/hp.CreatePaymentAction.action.json",
-                "actionHandler": "CommonGateway\\HackathonPluginBundle\\ActionHandler\\PetStoreHandler",
+                "actionHandler": "CommonGateway\\HackathonPluginBundle\\ActionHandler\\HackathonPluginHandler",
                 "listens": ["ps.default.listens"],
                 "configuration": {
                     "description": "This is an example of how we can create a Action for an ActionHandler.",

@@ -61,16 +61,16 @@ class HackathonPluginService
      *
      * @return array A handler must ALWAYS return an array
      */
-    public function petStoreHandler(array $data, array $configuration): array
+    public function HackathonPluginHandler(array $data, array $configuration): array
     {
         $this->data          = $data;
         $this->configuration = $configuration;
 
-        $this->logger->debug("PetStoreService -> petStoreHandler()");
+        $this->logger->debug("PetStoreService -> HackathonPluginHandler()");
 
         return ['response' => 'Hello. Your HackathonPluginBundle works'];
 
-    }//end petStoreHandler()
+    }//end HackathonPluginHandler()
 
 
 }//end class
